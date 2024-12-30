@@ -18,7 +18,6 @@ def index(request):
         contact.save()
         return redirect('thank_you')  
 
-
     return render(request,'form/index.html')
 
 def thankYou(request):
